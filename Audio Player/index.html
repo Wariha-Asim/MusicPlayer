@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="player-container">
+        <h1>Music Player <img id="icon" src="icon.png" height="50px" width="50px"></h1>
+        <img id="albumCover" src="singer.webp" height="150px" width="200px">
+        <audio id="audio1" src="audio.mp3"></audio>
+        <audio id="audio2" src="audio2.mp3"></audio>
+        <audio id="audio3" src="audio3.mp3"></audio>
+        <div class="controls">
+            <button id="prevBtn">Previous</button>
+            <button id="playPauseBtn">Play</button>
+            <button id="stopBtn">Stop</button>
+            <button id="nextBtn">Next</button>
+            <span id="currentTime">00:00</span> / <span id="duration">00:00</span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
